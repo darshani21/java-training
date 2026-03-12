@@ -1,0 +1,20 @@
+import java.io.*;
+import java.util.*;
+import java.util.Scanner;
+
+
+public class Solution {
+
+    public static void main(String[] args) {
+        int a;
+        int b;
+        int c;
+        int d;
+        Scanner sm=new Scanner(System.in);
+        a=sm.nextInt(); 
+        b=sm.nextInt();
+        c=sm.nextInt();
+        d=(a+b+c)/3;
+        System.out.println(d);
+    }
+}
