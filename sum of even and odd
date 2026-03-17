@@ -1,0 +1,28 @@
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+    Scanner sc=new Scanner(System.in);
+    int n;
+    int evensum = 0, oddsum = 0;
+
+    System.out.println("Enter a numbers:");
+    n=sc.nextInt();
+
+    for(int i=1; i<=n;i++){
+       
+       
+        
+       if(i % 2 ==0) {
+       evensum +=i;
+    } 
+
+    else{
+       oddsum  +=i;
+    }
+    }
+      System.out.println("sum of even number = "+ evensum);
+      System.out.println("sum of odd number = "+ oddsum);
+
+      sc.close();
+    }
+}
